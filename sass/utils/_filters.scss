@@ -1,0 +1,33 @@
+.filter {
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.filter-item {
+  margin-right: 8px;
+}
+
+.filter-button {
+  border: hidden;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.filter .filter-button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  font-family: "Roboto", "sans-serif";
+}
+.filter .filter-button:hover,
+.filter .filter-button:focus,
+.filter .filter-button.all {
+  color: var(--white-color);
+  background-color: var(--brand-primary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.filter .filter-button {
+  transition: color var(--transition-timing) var(--cubic-bezier-first),
+    background-color var(--transition-timing) var(--cubic-bezier-first),
+    box-shadow var(--transition-timing) var(--cubic-bezier-first);
+}
