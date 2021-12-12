@@ -26,31 +26,31 @@
             >Web<span class="nav__logo-studio--dark">Studio</span>
           </a>
           <ul class="nav__links">
-            <li class="nav__links-item">
-              <a href="./index.html" class="nav__links-title title">Студия</a>
+            <li class="nav__links__item">
+              <a href="./index.html" class="nav__links__title title">Студия</a>
             </li>
-            <li class="nav__links-item">
-              <a href="./portfolio.html" class="nav__links-title title current"
+            <li class="nav__links__item">
+              <a href="./portfolio.html" class="nav__links__title title current"
                 >Портфолио</a
               >
             </li>
-            <li class="nav__links-item">
-              <a href="" class="nav__links-title title">Контакты</a>
+            <li class="nav__links__item">
+              <a href="" class="nav__links__title title">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="nav__links nav-contacts">
-          <li class="nav__links-item nav-contacts_icon">
-            <a href="mailto:info@devstudio.com" class="nav-contacts_contact">
-              <svg class="nav-contacts_mail" width="16" height="12">
+          <li class="nav__links__item nav-contacts__icon">
+            <a href="mailto:info@devstudio.com" class="nav-contacts__contact">
+              <svg class="nav-contacts__mail" width="16" height="12">
                 <use href="./images/icons.svg#icon-mail-icon"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="nav__links-item nav-contacts_icon">
-            <a href="tel:+380961111111" class="nav-contacts_contact">
-              <svg class="nav-contacts_tel" width="10" height="16">
+          <li class="nav__links__item nav-contacts_icon">
+            <a href="tel:+380961111111" class="nav-contacts__contact">
+              <svg class="nav-contacts__tel" width="10" height="16">
                 <use href="./images/icons.svg#icon-phone-icon"></use>
               </svg>
               +38 096 111 11 11
@@ -62,37 +62,48 @@
     <!-- Портфолио -->
     <main>
       <!-- Радио кнопки -->
-      <section class="radio-buttons section">
+      <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
-          <ul class="filter set-of-buttons">
-            <li class="filter-item">
-              <button type="button" class="filter-button all">Все</button>
+          <ul class="filter">
+            <li class="filter__item">
+              <button
+                type="button"
+                class="filter__item__button filter__item__button--active"
+              >
+                Все
+              </button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Веб-сайты</button>
+            <li class="filter__item">
+              <button type="button" class="filter__item__button">
+                Веб-сайты
+              </button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Приложения</button>
+            <li class="filter__item">
+              <button type="button" class="filter__item__button">
+                Приложения
+              </button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Дизайн</button>
+            <li class="filter__item">
+              <button type="button" class="filter__item__button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="filter-button">Маркетинг</button>
+            <li class="filter__item">
+              <button type="button" class="filter__item__button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <!-- Ассортимент -->
           <ul class="positions set-of-cards">
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/technohryak.jpg"
                     alt="Изображение сайта на ноутбуке"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -101,21 +112,25 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">Технокряк</h2>
-                  <p class="type-of-position">Веб-сайт</p>
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
+                    Технокряк
+                  </h2>
+                  <p class="positions__item__link__descriptions__type">
+                    Веб-сайт
+                  </p>
                 </div></a
               >
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/poster.jpg"
                     alt="Постер команд нового орлеана и голден старс"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -124,24 +139,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
                     Постер
                     <span lang="en">Orlean vs Golden Star</span>
                   </h2>
-                  <p class="type-of-position">Дизайн</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Дизайн
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/seafood.jpg"
                     alt="Изображение логотипа ресторана Seafood"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -150,24 +167,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
                     Ресторан
                     <span lang="en">Seafood</span>
                   </h2>
-                  <p class="type-of-position">Приложение</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Приложение
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/headphones.jpg"
                     alt="Изображение Наушников"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -176,24 +195,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
                     Проект
                     <span lang="en">Prime</span>
                   </h2>
-                  <p class="type-of-position">Маркетинг</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Маркетинг
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/boxes.jpg"
                     alt="Изображение коробочек"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -202,24 +223,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
                     Проект
                     <span lang="en">Boxes</span>
                   </h2>
-                  <p class="type-of-position">Приложение</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Приложение
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/display.jpg"
                     alt="Изображение сайта на экране монитора"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -228,23 +251,28 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position" lang="en">
+                <div class="positions__item__link__descriptions">
+                  <h2
+                    class="positions__item__link__descriptions__name name"
+                    lang="en"
+                  >
                     Inspiration has no Borders
                   </h2>
-                  <p class="type-of-position">Веб-сайт</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Веб-сайт
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/book.jpg"
                     alt="Изображение развернутой книги"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -253,24 +281,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
                     Издание
                     <span lang="en">Limited Edition</span>
                   </h2>
-                  <p class="type-of-position">Дизайн</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Дизайн
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/label.jpg"
                     alt="Изображение бирки"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -279,24 +309,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position">
+                <div class="positions__item__link__descriptions">
+                  <h2 class="positions__item__link__descriptions__name name">
                     Проект
                     <span lang="en">LAB</span>
                   </h2>
-                  <p class="type-of-position">Маркетинг</p>
+                  <p class="positions__item__link__descriptions__type">
+                    Маркетинг
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="positions-link">
-                <div class="card-slider">
+            <li class="positions__item">
+              <a href="" class="positions__item__link">
+                <div class="positions__item__link__card-slider">
                   <img
                     src="./images/notebook.jpg"
                     alt="Человек работает за ноутбуком"
                     width="370"
                   />
-                  <div class="slider-text">
+                  <div class="positions__item__link__card-slider__text">
                     <p>
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
@@ -305,9 +337,16 @@
                     </p>
                   </div>
                 </div>
-                <div class="descriptions">
-                  <h2 class="name-of-position" lang="en">Growing Business</h2>
-                  <p class="type-of-position">Приложение</p>
+                <div class="positions__item__link__descriptions">
+                  <h2
+                    class="positions__item__link__descriptions__name name"
+                    lang="en"
+                  >
+                    Growing Business
+                  </h2>
+                  <p class="positions__item__link__descriptions__type">
+                    Приложение
+                  </p>
                 </div>
               </a>
             </li>

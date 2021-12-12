@@ -8,7 +8,7 @@
   color: var(--icons-first-color);
   transition: color var(--transition-timing) var(--cubic-bezier-first),
     background-color var(--transition-timing) var(--cubic-bezier-first);
-  &_icon {
+  &__icon {
     fill: currentColor;
   }
   &:hover,

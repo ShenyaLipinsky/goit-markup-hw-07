@@ -1,19 +1,19 @@
 .our-team {
   background-color: var(--our-team-color);
   margin-bottom: 0;
-  &_title {
+  &__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
   }
-  &_list {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
   }
-  &_item {
+  &__item {
     max-width: 270px;
     margin-left: 30px;
     background: var(--white-color);
@@ -24,25 +24,25 @@
       margin-left: 0;
     }
   }
-  &_description {
+  &__description {
     display: flex;
     flex-direction: column;
     padding: 30px 32px;
     align-items: center;
   }
-  &_name {
+  &__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
   }
-  &_profession {
+  &__profession {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     margin-top: 10px;
   }
-  &_icon-box {
+  &__icon-box {
     display: flex;
     width: 206px;
     height: 44px;

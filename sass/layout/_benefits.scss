@@ -1,11 +1,11 @@
 .benefits {
   font-size: 14px;
   letter-spacing: 0.03em;
-  &_list {
+  &__list {
     display: flex;
     list-style: none;
   }
-  &_item {
+  &__item {
     max-width: 270px;
     margin-left: 30px;
     line-height: 1.71;
@@ -13,13 +13,15 @@
       margin-left: 0;
     }
   }
-  &_title {
+  &__title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-  &_icon {
+
+  &__icon {
     content: "";
     &-box {
       display: flex;

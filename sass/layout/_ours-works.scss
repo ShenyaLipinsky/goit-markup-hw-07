@@ -1,24 +1,24 @@
 .ours-work {
   padding-top: 0;
-  &_title {
+  &__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
   }
-  &_list {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
   }
-  &_item {
+  &__item {
     margin-left: 30px;
     position: relative;
     &:nth-child(3n + 1) {
       margin-left: 0;
     }
-    &-bg {
+    &__bg {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -29,7 +29,7 @@
       bottom: 0;
       left: 0;
     }
-    &-title {
+    &__title {
       font-family: Roboto;
       font-size: 14px;
       font-weight: 700;

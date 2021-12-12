@@ -15,7 +15,7 @@
     align-items: center;
     margin-left: 93px;
     list-style: none;
-    &-item {
+    &__item {
       display: flex;
       margin-left: 50px;
       position: relative;
@@ -23,7 +23,7 @@
         margin-left: 0;
       }
     }
-    &-title {
+    &__title {
       text-decoration: none;
       padding: 32px 0px;
       transition: color var(--transition-timing) var(--cubic-bezier-first);
@@ -36,7 +36,7 @@
 
 .nav-contacts {
   margin-left: auto;
-  &_contact {
+  &__contact {
     display: flex;
     padding: 32px 0;
     align-items: center;
@@ -50,8 +50,8 @@
 
     transition: color var(--transition-timing) var(--cubic-bezier-first);
   }
-  &_mail,
-  &_tel {
+  &__mail,
+  &__tel {
     content: "";
     margin-right: 10px;
     fill: currentColor;
@@ -60,7 +60,22 @@
 
 .nav__links-title:hover,
 .nav__links-title:focus,
-.nav-contacts_contact:hover,
-.nav-contacts_contact:focus {
+.nav-contacts__contact:hover,
+.nav-contacts__contact:focus {
+  color: var(--brand-primary-color);
+}
+
+.current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--brand-primary-color);
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+.current {
   color: var(--brand-primary-color);
 }

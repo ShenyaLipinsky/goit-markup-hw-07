@@ -1,5 +1,5 @@
 .clients {
-  &_title {
+  &__title {
     margin-bottom: 50px;
     letter-spacing: 0.03em;
     font-weight: 700;
@@ -7,11 +7,11 @@
     line-height: 1.16;
     text-align: center;
   }
-  &_list {
+  &__list {
     display: flex;
     list-style: none;
   }
-  &_box-item {
+  &__box-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@
       margin-left: 30px;
     }
   }
-  &_icon-box {
+  &__icon-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@
       border-color: var(--brand-primary-color);
       color: var(--brand-primary-color);
     }
-    &_icon {
+    &__icon {
       fill: currentColor;
     }
     transition: color var(--transition-timing) var(--cubic-bezier-first),
