@@ -197,8 +197,8 @@ address {
   fill: currentColor;
 }
 
-.nav__links-title:hover,
-.nav__links-title:focus,
+.nav__links__title:hover,
+.nav__links__title:focus,
 .nav-contacts__contact:hover,
 .nav-contacts__contact:focus {
   color: var(--brand-primary-color);
